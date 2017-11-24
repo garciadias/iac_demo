@@ -15,4 +15,13 @@ sns.pairplot(dset,
 plt.title("2MASS photometry", fontsize=18)
 plt.ylim(18, 5)
 plt.xlim(-0.15, 2)
+plt.title('M67 2MASS', fontsize=18)
+plt.show()
+
+fig = plt.figure(figsize=(9, 9))
+ax = fig.add_subplot(111)
+sns.kdeplot(dset.JK, dset.J, shade=True)
+plt.ylim(18, 10)
+plt.xlim(-0.15, 2)
+plt.title('M67 2MASS', fontsize=18)
 plt.show()
