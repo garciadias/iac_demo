@@ -12,6 +12,7 @@ sns.pairplot(dset,
              hue='survey',
              size=9,
              plot_kws=dict(s=65))
+plt.title("2MASS photometry", fontsize=18)
 plt.ylim(18, 5)
 plt.xlim(-0.15, 2)
 plt.show()
