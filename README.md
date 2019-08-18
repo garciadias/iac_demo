@@ -1,7 +1,7 @@
 
 # IAC git demo
 
-## In this demo I'm explaining how git by performing the following steps:
+## In this demo I'm explaining how to use git by performing the following steps:
 
 - Create a repository
 - Change the README.md file
